@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="pics/favicon.ico">
+    <title>ParkSpot</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <div class="container">
+          <img class="float-start img-fluid" src="pics/favicon.ico" alt="">
+          <a class="navbar-brand ms-2 fw-bolder display-2 custom-font-head" href="#">Parkspot</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active mx-4 custom-font-sub fw-bold" href="#services">Services</a>
+              <button data-bs-toggle="modal" onclick="window.location.href='parkingP1.html'" type="button" class="btn btn-outline-dark mx-4 btn-outline-custom custom-font-sub fw-bold">Book Slot</button>
+            </div>
+          </div>
+        </div>
+    </nav>
+<!-- Login form
+    <div class="modal fade" id="log-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Sign-in to Your Account</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <div class="input-group">
+              <div class="input-group-addon">
+                <i class="bi bi-person-circle mx-2"></i>
+              </div>
+              <input type="email" class="form-control p-2 mb-2" id="modal-email" placeholder="Email Address" required>
+            </div>
+            <div class="input-group">
+              <div class="input-group-addon">
+                <i class="bi bi-lock-fill mx-2"></i>
+              </div>
+              <input type="password" class="form-control p-2 mb-2" id="modal-password" placeholder="Password" required>
+            </div>
+            <div class="container text-center">
+              <button class="btn btn-signin-custom text-light">Sign In</button>
+            </div>
+            <button class="btn btn-primary my-2"><img src="pics/glogo.png" class="img-fluid glogo-custom mx-2" alt=""> Continue with google</button>
+            <input type="text" class="form-control p-1 mb-2 my-2" id="modal" placeholder="Vehicle Number" required>
+          </div>
+          <div class="modal-footer">
+            <div class="container text-center my-2">
+              <p>Don't have an account?</p>
+              <a href="" class="text-decoration-none">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+      <section id="Home">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between p-5">
+                <div class="col-md custom-font-head">
+                    <h1 class="display-6 mt-5">Smart and Effective <span class="landing-text">Parking Solutions</span> for your academic organization and workplace.</h1>
+                </div>
+                <div class="col-md">
+                    <img class="img-fluid mt-5" src="pics/parking.jpg" alt="">
+                </div> 
+            </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between p-5">
+                <div class="col-md">
+                    <img class="img-fluid w-50 my-5 mx-3" src="pics/qr.svg" alt="">
+                </div>
+                <div class="col-md">
+                    <h2 class="custom-font-head">QR enabled booking</h2>
+                    <p class="lead custom-font-sub">Scan the QR for vacancies, select a slot and park and pay for your vehicle for the desired time.</p>
+                </div>
+            </div> 
+        </div>
+      </section>
+
+      <section class="p-5 bg-customIoT">
+        <div class="container">
+          <div class="row d-flex align-items-center p-5">
+            <div class="col-md">
+              <h2 class="custom-font-head">IoT enabled parking</h2>
+              <p class="lead custom-font-sub">A centralized management system that allows drivers to use a smartphone app to search for and reserve a parking spot.</p>
+            </div>
+            <div class="col-md">
+              <img class="img-fluid" src="pics/iot2f.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="p-5">
+        <div class="container">
+          <div class="row d-flex align-items-center justify-content-between p-4">
+            <div class="col-md">
+              <img src="pics/naigf.jpg" class="img-fluid rounded-3" alt="">
+            </div>
+            <div class="col-md">
+              <h2 class="custom-font-head">Navigate to your spot</h2>
+              <p class="lead custom-font-sub">Upon selection of the slot the navigation to reach the parking destination</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="p-5 bg-custom text-light">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-md mx-5 my-2">
+              <h3 class="custom-font-head">1.Download the Parkspot App</h3>
+              <p class="lead custom-font-sub">Install the app from app/play store and sign into your account to find a parking slot near you</p>
+              <h3 class="custom-font-head">2.Select parking place</h3>
+              <p class="lead custom-font-sub">Choose your parking place and check the for available slots</p>
+              <h3 class="custom-font-head">3.Reserve your parking spot</h3>
+              <p class="lead custom-font-sub">Scan the QR to reserve on the spot or book it beforehand</p>
+              <h3 class="custom-font-head">4.Navigation to the spot</h3>
+              <p class="lead custom-font-sub">Upon booking our navigation system helps you reach your parking spot through maps</p>
+              <h3 class="custom-font-head">5.Choose time duration</h3>
+              <p class="lead custom-font-sub">Choose the duration of your parking and with the flexibility of extending it according to your work</p>
+              <h3 class="custom-font-head">6.Exit the slot</h3>
+              <p class="lead custom-font-sub">Upon completion of your work exit the slot</p>
+            </div>
+            <div class="col-md mx-5">
+              <img src="pics/apif.png" class="img-fluid screen1"  alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      </section>
+
+      <section class="">
+        <footer class="p-5 bg-customFooter text-light text-center position-relative">
+          <div class="container">
+            <div class="row d-flex align-items-center">
+              <div class="col-md">
+                <h4 class="text-start custom-font-head">Park<span class="landing-text">spot</span></h4>
+                <p class="lead text-start custom-font-sub">Parkspot offers smart parking solutions for academic organizations. Our unique QR and remote booking system helps make parking efficient at your workplace.</p>
+                <h4 class="text-start custom-font-head">Add<span class="landing-text">ress</span></h4>
+                <p class="lead text-start custom-font-sub">Udupi - Karkala Rd, Eshwar Nagar, Manipal, Karnataka 576104</p>
+              </div>
+              <div class="col-md">
+                <h4 class="pb-3 custom-font-head">Social</h4>
+                <a onclick="insta()"><i class="bi bi-instagram h4 mx-3"></i></a>
+                <a onclick="linkedin()"><i class="bi bi-linkedin h4 mx-3"></i></a>
+                <a onclick="twitter()"><i class="bi bi-twitter h4 mx-3"></i></a>
+                <a onclick="mail()"><i class="bi bi-envelope h4 mx-3"></i></a>
+                <p class="pt-5 custom-font-sub">Copyright &copy; 2022 Parkspot</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
